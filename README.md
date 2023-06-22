@@ -8,3 +8,5 @@ In the yolov5 folder, the yolo5 model is located. The results of running the mod
 
   
 In the dataset folder, the scripts related to managing the dataset for the classifiers are included.
+
+The requirements to use the cnn and mediapipe classifiers are in requirements_cnn_mediapipe.txt and to use the yolo are in requirements_yolo.txt
