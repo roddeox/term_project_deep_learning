@@ -1,0 +1,13 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 5
+names: ['A', 'B', 'C', 'D', 'E']
+
+roboflow:
+  workspace: teste-hvaf8
+  project: sign-language-hqiyv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/teste-hvaf8/sign-language-hqiyv/dataset/1

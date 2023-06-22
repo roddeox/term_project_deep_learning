@@ -1,0 +1,13 @@
+train: signlanguage-abcde.v1i.yolov5pytorch/train/images
+val: signlanguage-abcde.v1i.yolov5pytorch/valid/images
+test: signlanguage-abcde.v1i.yolov5pytorch/test/images
+
+nc: 5
+names: ['A', 'B', 'C', 'D', 'E']
+
+roboflow:
+  workspace: teste-hvaf8
+  project: signlanguage-abcde
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/teste-hvaf8/signlanguage-abcde/dataset/1
